@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorksEntityModel", "AdventureWorksEntityModel\AdventureWorksEntityModel.csproj", "{439C844E-5467-412C-9C00-F052B106479C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AdventureWorksService1", "..\AdventureWorksService1\", "{813582A8-81C4-4322-86C7-8C421410A4F9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{439c844e-5467-412c-9c00-f052b106479c}|AdventureWorksEntityModel.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51451"
+		Debug.AspNetCompiler.PhysicalPath = "..\AdventureWorksService1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51451\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51451"
+		Release.AspNetCompiler.PhysicalPath = "..\AdventureWorksService1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51451\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51451"
+		SlnRelativePath = "..\AdventureWorksService1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorksClient", "AdventureWorksClient\AdventureWorksClient.csproj", "{D7C8B7F8-433C-46C4-9825-4409DCF7FF64}"
+	ProjectSection(ProjectDependencies) = postProject
+		{813582A8-81C4-4322-86C7-8C421410A4F9} = {813582A8-81C4-4322-86C7-8C421410A4F9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{439C844E-5467-412C-9C00-F052B106479C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439C844E-5467-412C-9C00-F052B106479C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439C844E-5467-412C-9C00-F052B106479C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439C844E-5467-412C-9C00-F052B106479C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813582A8-81C4-4322-86C7-8C421410A4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813582A8-81C4-4322-86C7-8C421410A4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813582A8-81C4-4322-86C7-8C421410A4F9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{813582A8-81C4-4322-86C7-8C421410A4F9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D7C8B7F8-433C-46C4-9825-4409DCF7FF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C8B7F8-433C-46C4-9825-4409DCF7FF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C8B7F8-433C-46C4-9825-4409DCF7FF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C8B7F8-433C-46C4-9825-4409DCF7FF64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
